@@ -41,3 +41,25 @@
 【Train】 CV score for class others_willing_to_consume_again is 0.8849609018754124  
 【Test】 CV score for class others_willing_to_consume_again is 0.7881333333333334  
 【Test】 Total CV score is 0.7983766666666667  
+# 数据标注说明
+层次一(The first layer)	层次二(The second layer)
+位置(location)	交通是否便利(traffic convenience)
+	距离商圈远近(distance from business district)
+	是否容易寻找(easy to find)
+服务(service)	排队等候时间(wait time)
+	服务人员态度(waiter’s attitude)
+	是否容易停车(parking convenience)
+	点菜/上菜速度(serving speed)
+价格(price)	价格水平(price level)
+	性价比(cost-effective)
+	折扣力度(discount)
+环境(environment)	装修情况(decoration)
+	嘈杂情况(noise)
+	就餐空间(space)
+	卫生情况(cleaness)
+菜品(dish)	分量(portion)
+	口感(taste)
+	外观(look)
+	推荐程度(recommendation)
+其他(others)	本次消费感受(overall experience)
+	再次消费的意愿(willing to consume again)
